@@ -7,6 +7,7 @@ RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak
 ADD ./163-sources.list /etc/apt/sources.list
 
 RUN apt-get update
+RUN echo y | apt-get install wget
 
 # jdk
 ENV VERSION 8
