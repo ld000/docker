@@ -38,4 +38,4 @@ RUN apt-get clean \
         /usr/share/doc \
         /usr/share/doc-base
 
-ENTRYPOINT ["java", "-version"]
+# ENTRYPOINT ["java", "-version"]
